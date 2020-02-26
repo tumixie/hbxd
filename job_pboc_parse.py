@@ -28,7 +28,7 @@ sys.path.append(pathlib.Path(__file__).absolute().parent.parent.as_posix())
 # sys.path.append('/Users/tumixie/project/ffd/ds/root/project/job/huabei_loan_pboc')
 # import tojson, pboc
 
-# from scripts import tojson, pboc
+from scripts import tojson, pboc
 
 
 def parse_pboc(work_dir, word_file: str, out_dir: str = None, log_dir=None):
